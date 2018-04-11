@@ -1,5 +1,21 @@
 # rMod
+
 A modding project for Kingdoms of Amaluar: Reckoning. Injectable hook that introduces plugins (via C++/etc.) and addons (via Lua scripting).
+
+# rMod Repositories
+
+rMod is separated into a few repositories to help keep the project clean and have central locations for issue reports for each part separated. 
+
+You can view the full list of repositories here:
+  * https://github.com/KoA-rMod
+  
+Some important repositories that you may wish to view are:
+
+  * Addons: https://github.com/KoA-rMod/Addons
+  
+Interested in developing plugins for rMod? Check out the example plugin source code here:
+
+  * ExamplePlugin: https://github.com/KoA-rMod/ExamplePlugin
 
 # rMod Community
 
