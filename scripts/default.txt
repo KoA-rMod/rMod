@@ -1,0 +1,68 @@
+####################################################################################################
+#
+#          .____  ____,            .___,
+#   .______|    \/    |            |   |
+#   |      |          |_______.____|   |
+#   |   .__|          |   _   |   __   |
+#   |   |  |          |  |_|  |  |__|  |
+#   |___|  |___|__|___|_______|________|
+#
+#   Kingdoms of Amalur: Reckoning (rMod)
+# 
+####################################################################################################
+# Default Script
+# 
+#   This script is loaded when the game is first launched and begins rendering.
+#   You can use this script to help configure rMod to your desired setup.
+#   Addons and plugins can be automatically loaded by adding them here.
+# 
+# Commands start with: /
+# Comments start with: # or //
+####################################################################################################
+
+####################################################################################################
+# Autoload Plugins
+#
+# Add plugins here that you wish to have automatically load at the start of the game when rMod
+# is first injected. This can be useful for any plugins that need to be loaded as soon as possible.
+#
+# You can load plugins here using the /load command such as:
+#   /load addons
+####################################################################################################
+
+/load addons
+
+####################################################################################################
+# Autoload Addons
+#
+# Add addons here that you wish to have automatically load at the start of the game when rMod
+# is first injected. This can be useful for any addons that need to be loaded as soon as possible.
+#
+# You can load addons here using the /addon load command such as:
+#   /addon load expmon
+#
+# You must load the addons plugin above first before you can load addons here!
+####################################################################################################
+
+####################################################################################################
+# Set Keybinds
+#
+# Set any key binds here that you wish to use and have automatically setup for you each time the
+# game is started. Keybinds can have modifier keys as follows:
+#
+#   ! = Alt Key
+#   # = Apps Key
+#   ^ = Control Key
+#   + = Shift Key
+#   @ = Windows Key
+#
+# Key binds are based on Windows virtual key codes. You can find a full list of them here:
+# https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx
+#
+# Key names are internally stored as their VK_ name with the VK_ part removed. For example:
+#       VK_OEM_3 - 0xC0 - For the US standard keyboard, the '`~' key
+#
+# To bind this key, use: OEM_3
+####################################################################################################
+
+/bind OEM_3 /toggleconsole
